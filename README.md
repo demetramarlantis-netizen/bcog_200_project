@@ -32,6 +32,15 @@ List of Functions & Methods:
     - This functon returns the updated colors and the index of the sqaure that changed
 
 - check_answer (user_choice, changed_index, streak)
+    - This function checks if the user clicks the correct or incorrect square 
+    - The parameters are user_choice, which is whichever square selected by the user. Changed_index is the index of the sqaure that was changed colors. score is the currect score of the correct answers the user has gotten. 
+         - This function returns the updated score count 
+
+- display_win_screen() 
+    - displays the winning graphic if the player reaches 5 points 
+
+- main()
+    - runs the game loop and makes all the functions work together 
 
 Example use cases: 
 A user would use this program if they wanted to play a game for entertainment. They could also use this game as a way to challange their memory or to practice thier focus. 
