@@ -36,3 +36,34 @@ List of Functions & Methods:
 Example use cases: 
 A user would use this program if they wanted to play a game for entertainment. They could also use this game as a way to challange their memory or to practice thier focus. 
 
+
+
+
+Python Script File:Proposed functions and responsibilities
+
+- get_player_name()- Demi
+ (Ask the user to input their name before the game begins)
+
+- show_directions()- Demi
+(the screen with the directions of how to play the game)
+
+- show_colors(colors)- Ava
+(Display the 10 colored squared on the screen for 1 second)
+
+- change_square(colors)- Ava
+(Randomly choose one square and assign it a new color)
+
+- check_answer(user_choice, changed_index, steak)- Demi
+(determine whether the user selected the correct square and update their score accordingly)
+
+- display_feedback(correct) - Demi
+(Show a message telling the player whether their answer was correct or incorrect)
+
+- display_win_screen() - Ava 
+(Show the final winning graphic when the player wins)
+
+- main() - Shared responsiblity
+(combines all parts of the program so it is a fully working game loop)
+
+
+
