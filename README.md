@@ -13,5 +13,7 @@ Functions:
 How we will split our work: We will work togteher to figure out our plan for our code and process. To divide the work, we will split the code in half based on the diffucltuy of each part of our project. We live in the same house, so we will be able to communicate with each other very easily and stop in out of each other's room if we need any quick communcation. For more formal time together, we will plan, as necesscary, when we can meet to sit down and work togteher. 
 
 Project checkin #2: 
+
+Overview: 
 For our program, you will be playing a memory game. You will start by inputting your name so that the program knows who the player is. There will be 10 squares, each a different color, that will be arranged in two rows of 5 squares. You will be shown all 10 squares breifly, the screen will go blank, and then the colorded swaures will show back up, one of them with a different color than before. Your job is to select which square has changed color. If you guess correctly, you will get a point! If you guess incorrect, the program will tell you that you were incorrect and you will move on. To win the game, you need to get 5 points! 
 
