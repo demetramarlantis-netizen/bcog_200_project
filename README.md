@@ -37,6 +37,7 @@ Once the player reaches the win conditons, the vistory screen should display. Al
 and be smooth. 
 
 CODE STRUCTURE: 
+Our project is organized into seperate files to help keep our code clean and easy to read. The main file is responsible for running our game loop and handling gameplay. There are additional files that are used to seperate parts of the programs, such as for player movemnet and the graphics. This structure helps to make the code more readable and allows for the game to be coded in seprate parts. 
 List of Functions & Methods:
 
 
