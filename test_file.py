@@ -8,3 +8,40 @@
 #If the user gets to 5 points in the score, the program should end the game and display a message that the user has won the game! 
 #The sqaure that changes color should be selected randomly each round. 
 #Our program does not require any extra data so no test data file is needed. 
+
+from game_logic import generate_colors, change_one_color
+
+def test_generate_colors():
+    colors = generate_colors()
+    assert len(colors) == 10
+  
+def test_change_format():
+    colors = generate_colors()
+    for color in colors:
+        assert isinstance(color, tuple)
+        assert len(color) == 3
+
+def test_change_one_color_changes_something():
+    colors = [(100, 100, 100)] * 10
+    new_colors, index = change_one_color(colors)
+
+    assert new_colors != colors
+
+
+def test_change_one_color_index_valid():
+    colors = [(100, 100, 100)] * 10
+    new_colors, index = change_one_color(colors)
+
+    assert 0 <= index < len(colors)
+
+
+def test_only_one_color_changes():
+    colors = [(100, 100, 100)] * 10
+    new_colors, index = change_one_color(colors)
+
+    differences = 0
+    for i in range(len(colors)):
+        if colors[i] != new_colors[i]:
+            differences += 1
+
+    assert differences == 1
